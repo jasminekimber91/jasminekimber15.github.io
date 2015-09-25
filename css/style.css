@@ -39,4 +39,8 @@ font-family:"Comic Sans MS", cursive, sans-serif;
           }
 		a:hover{
 		 background-color:brown;
-		 }
+		  }
+		  a{
+		  	text-decoration:none;
+		  }
+		  }
