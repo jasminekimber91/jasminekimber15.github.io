@@ -1,0 +1,42 @@
+body{
+background-color:pink;
+color: blue;
+font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+.container{
+		width:70%;
+		margin:0 auto;
+		}
+		.left{
+		float:left;
+		width:40%;
+		
+		}
+		.right{
+		float:left;
+		width:40%;
+		margin-left:10%;
+		
+		}
+		table, th, td{
+		border: 1px black solid;
+	
+		}
+		
+	    table,tr:nth-child(even) 
+		{
+		background: black;
+		}
+       table, tr:nth-child(odd) 
+		{
+		background: white;
+		}
+		ul li:nth-child(5) {  
+        color: green;
+          }
+		a:hover{
+		 background-color:brown;
+		 }
