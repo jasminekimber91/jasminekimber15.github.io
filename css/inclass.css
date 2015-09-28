@@ -1,64 +1,59 @@
-body{
- width:1000px;
- height:700px;
- padding-top:0px;
- margin:auto;
+
+.container{
+    width:100%;
+    margin:0 auto;
+    background-color:green;
+}
+
+.header h1{
+float:left;
+margin:0 50px 0 30px;
+}
+
+.header{
+clear:both;
+padding-bottom: 20px;
+background-color: grey;
+}
+
+.header ul{
+    padding-top: 10px;  
+}
+
+  
+nav ul li {
+    margin-top:10px;
+    padding-left:20px;		    
+    display:inline;   
+}
  
+   .content{
+ width:75%;
+    float: left;
+    
+}
+ .content img{
+     float:left;
+     margin:10px 0px 0px 10px;
  }
-	 .header {
-            width:100%;
-            height:80px;
-            background:pink;
-			width:1000px;
-			height:50px;
-			float:center;
-			clear:both;
-   }
-  
-  .net{
-      float:right;
-   margin-right:20px;
-  }
+.top-content{
+ clear:both;
+height:20px;
+}
 
-        .sonnet{
-            margin:0 0 1em;
-        }
-        
-  .center{
-           text-align:center;
-           float:right;
-           margin:10px;
-     font-size:20px;
-     font-weight:bold;
-        }
-  
-  .wrap{
-            width:720px;
-            margin:0 auto;
-   height:500px;
-        }
+.description{
+           
+            margin:0px 20px 0px 400px;
+			float:left;
+            
+}     
 
+.section{
+    float:left;
+    width:20%;
+    margin-top:15%;
+}
 
-        .nav ul{
-      margin:0;
-   padding:1px;
-            list-style:none;
-            background-color:green;
-   
-        }
-        .nav li {
-      margin:1%;
-   padding:2%;      
-            display:inline;
-        }
-  
-        .content {
-            float:left;
-            width:800px;
-            height:700px;
-            padding:10px;
-            background:#9c9;
-        } 
         .aside {
             float:right;
             width:180px;
@@ -70,22 +65,11 @@ body{
             clear:both;
             text-align:center;
             background:#4A5C80;
-			height:50px;
+			padding:5px 10px;
         }
-        .aside ul li {
-		display:inline;
-		padding-left:20px;
-		margin-top;10px;
-		
-		}
-       h2{
-	   text-align:center;
-	   
-	   }
- .description{
- float:left;
- }
- 
+       
+      
+
  .section{
  width:20%;
  display:inline;
