@@ -1,72 +1,83 @@
-body{
-background-color:pink;
-color: blue;
-font-family:"Comic Sans MS", cursive, sans-serif;
-
+.container{
+    width:100%;
+    margin:0 auto;
+    background-color:grey;
 }
 
+.header h1{
+float:left;
+margin:0 50px 0 30px;
+}
 
-.container{
-		width:70%;
-		margin:0 auto;
-		}
-		.left{
-		float:left;
-		width:40%;
-		
-		}
-		.right{
-		float:left;
-		width:40%;
-		margin-left:10%;
-		
-		}
-		table, th, td{
-		border: 1px black solid;
+.header{
+clear:both;
+padding-bottom: 20px;
+background-color: green;
+}
+
+.header ul{
+    padding-top: 10px;  
+}
+
+  
+nav ul li {
+    margin-top:10px;
+    padding-left:20px;		    
+    display:inline;  
 	
-		}
-		
-	    table,tr:nth-child(even) 
-		{
-		background: black;
-		}
-       table, tr:nth-child(odd) 
-		{
-		background: white;
-		}
-		ul li:nth-child(5) {  
-        color: green;
-          }
-		a:hover{
-		 background-color:brown;
-		  }
-		  a{
-		  	text-decoration:none;
-		  }
-		  hr { 
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1px;
-		} 
-		
-		audio{
-		height:50px;
-		width:800px;
-		margin-top:50px;
-		}
-		
+}
+ ul 
+ { list-style-type: none;
+ }
+ 
+   .content{
+ width:58%;
+    float: left;
+    
+}
+ .content img{
+     float:left;
+   
+     padding-top:10px;
+	 padding-left:10px;
+ }
+
+
+.description{
+           padding-top:10px;
+		   padding-left:400px;
+           text-align:left;
+		   
+			}     
+
+.section{
+    float:left;
+    width:85%;
+    margin-top:15%;
+	padding-left:98px;
 	
-   footer{
-        position:absolute;
-       top:1600px;
-      margin-left:0px;
-     width:1400px;
-     height:120px;
-     background-color:lightgrey;
-     font-size:80%;
-     text-align:center;
-    }
+	}
+
+        .aside {
+            float:right;
+            width:320px;
+            height:850px;
+            padding:0px;
+            background:lightblue;
+   }
+        .footer {
+            clear:both;
+            text-align:center;
+            background:#4A5C80;
+			padding:5px 10px;
+        }
+       
+      
+
+ .section{
+ width:20%;
+ display:inline;
+ 
+ }
+
+  
