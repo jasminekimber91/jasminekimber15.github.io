@@ -1,8 +1,9 @@
 
+
 .container{
     width:100%;
     margin:0 auto;
-    background-color:green;
+    background-color:grey;
 }
 
 .header h1{
@@ -13,7 +14,7 @@ margin:0 50px 0 30px;
 .header{
 clear:both;
 padding-bottom: 20px;
-background-color: grey;
+background-color: green;
 }
 
 .header ul{
@@ -24,42 +25,47 @@ background-color: grey;
 nav ul li {
     margin-top:10px;
     padding-left:20px;		    
-    display:inline;   
+    display:inline;  
+	
 }
+ ul 
+ { list-style-type: none;
+ }
  
    .content{
- width:75%;
+ width:58%;
     float: left;
     
 }
  .content img{
      float:left;
-     margin:10px 0px 0px 10px;
+   
+     padding-top:10px;
+	 padding-left:10px;
  }
-.top-content{
- clear:both;
-height:20px;
-}
+
 
 .description{
-           
-            margin:0px 20px 0px 400px;
-			float:left;
-            
-}     
+           padding-top:10px;
+		   padding-left:400px;
+           text-align:left;
+		   
+			}     
 
 .section{
     float:left;
-    width:20%;
+    width:85%;
     margin-top:15%;
-}
+	padding-left:98px;
+	
+	}
 
         .aside {
             float:right;
-            width:180px;
-            height:720px;
+            width:320px;
+            height:850px;
             padding:0px;
-            background:yellow;
+            background:lightblue;
    }
         .footer {
             clear:both;
@@ -75,3 +81,7 @@ height:20px;
  display:inline;
  
  }
+
+           
+           
+       
