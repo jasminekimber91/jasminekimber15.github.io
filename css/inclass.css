@@ -60,15 +60,13 @@ font-family:"Comic Sans MS", cursive, sans-serif;
 		}
 		
 	
-      footer{
-       top:1000px;
-      margin-left:10px;
-      margin-right:10px;
-     width:1000px;
+   footer{
+        position:absolute;
+       top:1600px;
+      margin-left:0px;
+     width:1400px;
      height:120px;
-     border:1px solid black;
      background-color:lightgrey;
      font-size:80%;
      text-align:center;
     }
-
