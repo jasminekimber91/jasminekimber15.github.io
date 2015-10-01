@@ -27,18 +27,21 @@ font-size:25px;
 line-height:1.25;
 text-align:left;
 display:inline;
+word-spacing:10px;
 }
 #p2{
 font-size:23px;
 line-height:1.25;
 text-align:left;
 color:#336600;
+word-spacing:10px;
 }
 #p3{
 font-size:18px;
 line-height:1.25;
 text-align:left;
 color:#FF00FF;
+word-spacing:10px;
 }
 
 
