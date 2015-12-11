@@ -28,7 +28,7 @@ font-family:"Comic Sans MS", cursive, sans-serif;
 		
 	    table,tr:nth-child(even) 
 		{
-		background: black;
+		background: lightgrey;
 		}
        table, tr:nth-child(odd) 
 		{
