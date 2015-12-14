@@ -16,7 +16,7 @@ body {
 }
 
 .mets {
-    background: orange;
+    background: #7b4703;
 	line-height:1.25em;
 	font-size:20px;
 	padding-left:10px;
@@ -25,7 +25,7 @@ body {
 }
 
 .dodgers {
-    background: blue;
+    background: #3131fb;
 	line-height:1.25em;
 	font-size:18px;
 	padding-left:10px;
